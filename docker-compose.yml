@@ -1,0 +1,14 @@
+version: "3"
+services:
+  py1:
+    build: ./python
+    links:
+        - redis
+    tty: true
+  redis:
+    build: ./redis
+    ports:
+        - "6379:6379"
+    volumes:
+        - c:/gitRepo/pyRedisExample/redis/redis.conf:/usr/local/etc/redis/redis.conf
+    tty: true    
