@@ -13,7 +13,7 @@ Docker
 [Windows](https://docs.docker.com/docker-for-windows/) \
 [MAC](https://docs.docker.com/docker-for-mac/)  \
 [Linux - Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)  \
-  [Other Opereating Systems](https://docs.docker.com/install/overview/)  \
+[Other Opereating Systems](https://docs.docker.com/install/overview/)
 
 
 
