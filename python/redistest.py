@@ -7,7 +7,7 @@ redis_db.set('CT', 'Connecticut')
 redis_db.set('OH', 'Ohio')
 print(redis_db.keys())
 
-ctstr = redis_db.get("CT")
+ctstr = redis_db.get("CT").decode("utf-8")
 print(ctstr)
 
 print( "Good bye!" )
