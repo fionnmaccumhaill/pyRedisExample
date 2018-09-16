@@ -10,7 +10,7 @@ This repository was tested on Docker CE Version 18.06.1-ce-win73 (19507) on a Wi
 
 Docker
 
-[Windows] (https://docs.docker.com/docker-for-windows/)
+[Windows](https://docs.docker.com/docker-for-windows/)
 MAC  https://docs.docker.com/docker-for-mac/
 Linux (Ubuntu) https://docs.docker.com/install/linux/docker-ce/ubuntu/
 Other Opereating Systems https://docs.docker.com/install/overview/
