@@ -6,6 +6,6 @@ RUN pip install redis
 
 COPY redistest.py /usr/local/etc/redistest.py
 
-# CMD [ "python", "/usr/local/etc/redistest.py" ]
+CMD [ "python", "/usr/local/etc/redistest.py" ]
 
 # CMD [ "/bin/bash" ]
