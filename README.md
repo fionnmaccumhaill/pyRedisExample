@@ -8,7 +8,8 @@ This repository was tested on Docker CE Version 18.06.1-ce-win73 (19507) on a Wi
 
 ### Prerequisites
 
-Docker   \
+The only prerequisite is Docker which comes with Docker Compose. Here are the links to the Docker pages  for the most popular operating systems.   \
+
 [Windows](https://docs.docker.com/docker-for-windows/) \
 [MAC](https://docs.docker.com/docker-for-mac/)  \
 [Linux - Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)  \
