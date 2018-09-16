@@ -21,5 +21,9 @@ The only prerequisite is Docker which comes with Docker Compose. Here are the li
 
 Clone the repository to yout machine. Open a terminal window in the directory where the docker-compose.yml file is located. After that all you need to do to create the containers is type:
 
-docker-compose up
+docker-compose up --build
+
+## Function
+
+Docker Compose will start 2 containers. One will be a Redis container. If you aren't familiar with [Redis](https://redis.io/) it is an in-memory key/value store. The Redis container can be refernced over the network at a port you expose. In this case I am using the deault port of 6379. This can be changed in the redis.conf file. The second container has Python installed.Once the Python container is running a simple Python will be run to test the connectivity with the Redis container.
 
