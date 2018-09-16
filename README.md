@@ -18,3 +18,8 @@ The only prerequisite is Docker which comes with Docker Compose. Here are the li
 
 
 ### Installing
+
+Clone the repository to yout machine. Open a terminal window in the directory where the docker-compose.yml file is located. After that all you need to do to create the containers is type:
+
+docker-compose up
+
