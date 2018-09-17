@@ -22,6 +22,8 @@ Clone the repository to yout machine. Open a terminal window in the directory wh
 
 docker-compose up --build
 
+This has been  tested on Windows 10  Pro. When I just tested on my MAC I realized that I had to change the volumes parameter in the docker-compose.yml file in order to make it work. 
+
 ## Function
 
 Docker Compose will start 2 containers. One will be a Redis container. If you aren't familiar with [Redis](https://redis.io/) it is an in-memory key/value store. The Redis container can be refernced over the network at a port you expose. In this case I am using the deault port of 6379. This can be changed in the redis.conf file. The second container has Python installed. Once the Python container is running a simple Python app will be run to test the connectivity with the Redis container. After that app completes the Python container will terminate but the Redis container will remain running.
